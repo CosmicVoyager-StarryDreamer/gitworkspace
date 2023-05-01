@@ -23,3 +23,9 @@ def func2(n = 100): #  默认参数
 
 
 func2(200)
+
+
+for right in range(1,10):
+    for left in range(1,right + 1):
+        print(f'{left}X{right}={left*right}',end='\t')
+    print()
