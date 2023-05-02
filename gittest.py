@@ -45,3 +45,6 @@ for right in range(1,10):
     for left in range(1,right + 1):
         print(f'{left}X{right}={left*right}',end='\t')
     print()
+
+    
+print('hello world')
